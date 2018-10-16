@@ -179,6 +179,7 @@ hi! link jsFuncCall Normal
 hi! link jsGlobalObjects Statement
 hi! link jsModuleKeywords Statement
 hi! link jsModuleOperators Statement
+hi! link jsModuleBraces Comment
 hi! link jsNull Constant
 hi! link jsObjectFuncName Title
 hi! link jsObjectKey Identifier
