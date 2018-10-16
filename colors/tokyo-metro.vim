@@ -32,7 +32,7 @@ let g:colors_name = expand('<sfile>:t:r')
 hi! ColorColumn cterm=NONE ctermbg=235 guibg=#1e2132
 hi! CursorColumn cterm=NONE ctermbg=235 guibg=#1e2132
 hi! CursorLine cterm=NONE ctermbg=235 guibg=#1e2132
-hi! Comment ctermfg=243 guifg=#6b7089
+hi! Comment ctermfg=243 guifg=#6b7089 gui=italic cterm=italic
 hi! Constant ctermfg=141 guifg=#8b76d0
 hi! XMLConstant ctermfg=141 guifg=#8b76d0 gui=italic cterm=italic
 hi! Cursor ctermbg=252 ctermfg=234 guibg=#abadb3 guifg=#161821
