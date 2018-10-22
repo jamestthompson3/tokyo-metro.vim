@@ -28,15 +28,15 @@ endif
 
 let g:colors_name = expand('<sfile>:t:r')
 
-
+hi! Args cterm=italic gui=italic  ctermfg=15 guifg=#ffffff
 hi! ColorColumn cterm=NONE ctermbg=235 guibg=#1e2132
 hi! CursorColumn cterm=NONE ctermbg=235 guibg=#1e2132
-hi! CursorLine cterm=NONE ctermbg=235 guibg=#1e2132
+hi! CursorLine cterm=NONE ctermbg=235 guibg=#1f2230
 hi! Comment ctermfg=243 guifg=#6b7089 gui=italic cterm=italic
 hi! Constant ctermfg=141 guifg=#8b76d0
 hi! XMLConstant ctermfg=141 guifg=#8b76d0 gui=italic cterm=italic
 hi! Cursor ctermbg=252 ctermfg=234 guibg=#abadb3 guifg=#161821
-hi! CursorLineNr ctermbg=237 ctermfg=253 guibg=#2a3158 guifg=#cdd1e6
+hi! CursorLineNr ctermbg=237 ctermfg=253 guibg=#1f2230 guifg=#cdd1e6
 hi! Delimiter ctermfg=252 guifg=#abadb3
 hi! DiffAdd ctermbg=130 ctermfg=224 guibg=#47413a guifg=#b0aaa0
 hi! DiffChange ctermbg=32 ctermfg=14 guibg=#233e4f guifg=#8ba7b5
@@ -47,24 +47,24 @@ hi! Error ctermbg=234 ctermfg=196 guibg=#161821 guifg=#e24240
 hi! ErrorMsg ctermbg=234 ctermfg=196 guibg=#161821 guifg=#e24240
 hi! WarningMsg ctermbg=234 ctermfg=196 guibg=#161821 guifg=#e24240
 hi! EndOfBuffer ctermbg=234 ctermfg=236 guibg=#161821 guifg=#242940
-hi! NonText ctermbg=234 ctermfg=236 guibg=#161821 guifg=#242940
+hi! NonText ctermbg=235 ctermfg=236 guibg=#1c1e2b guifg=#242940
 hi! SpecialKey ctermbg=234 ctermfg=236 guibg=#161821 guifg=#242940
 hi! Folded ctermbg=235 ctermfg=245 guibg=#1e2132 guifg=#686f9a
 hi! FoldColumn ctermbg=235 ctermfg=239 guibg=#1e2132 guifg=#444b71
 hi! Function ctermfg=41 guifg=#56b88a
 hi! Identifier cterm=NONE ctermfg=38 guifg=#4399bb
 hi! Include ctermfg=41 guifg=#56b88a
-hi! LineNr ctermbg=235 ctermfg=239 guibg=#1e2132 guifg=#444b71
+hi! LineNr ctermbg=235 ctermfg=239 guibg=#1c1e2b guifg=#393f60 cterm=italic gui=italic
 hi! MatchParen ctermbg=237 ctermfg=255 guibg=#3e445e guifg=#ffffff
 hi! MoreMsg ctermfg=180 guifg=#bca375
-hi! Normal ctermbg=234 ctermfg=252 guibg=#161821 guifg=#abadb3
+hi! Normal ctermbg=234 ctermfg=252 guibg=#1c1e2b guifg=#abadb3
 hi! Operator ctermfg=94 guifg=#91603a
 hi! Pmenu ctermbg=236 ctermfg=251 guibg=#3d425b guifg=#abadb3
 hi! PmenuSbar ctermbg=236 guibg=#3d425b
 hi! PmenuSel ctermbg=240 ctermfg=255 guibg=#5b6389 guifg=#eff0f4
 hi! PmenuThumb ctermbg=251 guibg=#abadb3
-hi! PreProc ctermfg=180 guifg=#bca375
-hi! PreProcItalic ctermfg=180 guifg=#bca375 gui=italic cterm=italic
+hi! PreProc ctermfg=180 guifg=#ae65f2
+hi! PreProcItalic ctermfg=180 guifg=#ae65f2 gui=italic cterm=italic
 hi! Question ctermfg=180 guifg=#bca375
 hi! QuickFixLine ctermbg=236 ctermfg=252 guibg=#272c42 guifg=#abadb3
 hi! Search ctermbg=215 ctermfg=234 guibg=#e4b580 guifg=#392713
@@ -82,7 +82,7 @@ hi! StatusLineTermNC cterm=reverse ctermbg=238 ctermfg=233 gui=reverse guibg=#3e
 hi! StorageClass ctermfg=41 guifg=#56b88a
 hi! String ctermfg=38 guifg=#4399bb
 hi! Structure ctermfg=41 guifg=#56b88a
-hi! JSSpecial ctermfg=41 guifg=#56b88a gui=italic cterm=italic
+hi! JSSpecial ctermfg=41 guifg=#ffdca5 gui=italic cterm=italic
 hi! TabLine cterm=NONE ctermbg=245 ctermfg=234 gui=NONE guibg=#818596 guifg=#17171b
 hi! TabLineFill cterm=reverse ctermbg=234 ctermfg=245 gui=reverse guibg=#17171b guifg=#818596
 hi! TabLineSel cterm=NONE ctermbg=234 ctermfg=252 gui=NONE guibg=#161821 guifg=#85878e
@@ -91,7 +91,7 @@ hi! Todo ctermbg=234 ctermfg=180 guibg=#47413a guifg=#bca375
 hi! Type ctermfg=43 gui=NONE guifg=#4da79a
 hi! Underlined cterm=underline ctermfg=41 gui=underline guifg=#56b88a term=underline
 hi! VertSplit cterm=NONE ctermbg=233 ctermfg=233 gui=NONE guibg=#0f1117 guifg=#0f1117
-hi! Visual ctermbg=236 guibg=#272c42
+hi! Visual ctermbg=236 guibg=#373e5e
 hi! WildMenu ctermbg=255 ctermfg=234 guibg=#d4d5db guifg=#17171b
 hi! diffAdded ctermfg=180 guifg=#bca375
 hi! diffRemoved ctermfg=196 guifg=#e24240
@@ -145,6 +145,7 @@ hi! link vimMapModKey Special
 hi! link vimOption Identifier
 hi! link vimVar Normal
 hi! link xmlAttrib XMLConstant
+hi! link htmlArg XMLConstant
 hi! link xmlAttribPunct Statement
 hi! link xmlEndTag Statement
 hi! link xmlNamespace Statement
@@ -161,6 +162,10 @@ hi! link jsFlowClassGroup PreProcItalic
 hi! link jsFlowObject Normal
 hi! link jsFlowObjectKey Normal
 hi! link jsFlowType PreProcItalic
+hi! link jsFlowImportType PreProcItalic
+hi! link jsFlowArrow Operator
+hi! link jsFlowTypeKeyword PreProcItalic
+hi! link jsFlowArgumentDef PreProcItalic
 hi! link jsFlowTypeStatement Identifier
 hi! link graphqlName Normal
 hi! link graphqlOperator Normal
@@ -175,6 +180,7 @@ hi! link jsModuleAs JSSpecial
 hi! link jsExtendsKeyword JSSpecial
 hi! link jsFrom JSSpecial
 hi! link jsFuncName Title
+hi! link jsFuncArgs Args
 hi! link jsFuncCall Normal
 hi! link jsGlobalObjects Statement
 hi! link jsModuleKeywords Statement
