@@ -162,6 +162,7 @@ hi! link jsFlowClassGroup PreProcItalic
 hi! link jsFlowObject Normal
 hi! link jsFlowObjectKey Normal
 hi! link jsFlowType PreProcItalic
+hi! link jsFlowTypeValue PreProcItalic
 hi! link jsFlowImportType PreProcItalic
 hi! link jsFlowArrow Operator
 hi! link jsFlowTypeKeyword PreProcItalic
