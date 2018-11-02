@@ -129,6 +129,8 @@ hi! link phpVarSelector Identifier
 hi! link pythonFunction Title
 hi! link rubyDefine Statement
 hi! link rubyFunction Title
+hi! link rustAttribute Normal
+hi! link rustDerive Normal
 hi! link rubyInterpolationDelimiter String
 hi! link rubySharpBang Comment
 hi! link rubyStringDelimiter String
