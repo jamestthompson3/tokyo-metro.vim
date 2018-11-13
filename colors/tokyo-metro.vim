@@ -59,7 +59,7 @@ hi! MatchParen ctermbg=237 ctermfg=255 guibg=#3e445e guifg=#ffffff
 hi! MoreMsg ctermfg=180 guifg=#bca375
 hi! Normal ctermbg=234 ctermfg=252 guibg=#1c1e2b guifg=#abadb3
 hi! Operator ctermfg=94 guifg=#91603a
-hi! Pmenu ctermbg=236 ctermfg=251 guibg=#3d425b guifg=#abadb3
+hi! Pmenu ctermbg=236 ctermfg=251 guibg=#212121 guifg=#abadb3
 hi! PmenuSbar ctermbg=236 guibg=#3d425b
 hi! PmenuSel ctermbg=240 ctermfg=255 guibg=#5b6389 guifg=#eff0f4
 hi! PmenuThumb ctermbg=251 guibg=#abadb3
@@ -96,7 +96,8 @@ hi! WildMenu ctermbg=255 ctermfg=234 guibg=#d4d5db guifg=#17171b
 hi! diffAdded ctermfg=180 guifg=#bca375
 hi! diffRemoved ctermfg=196 guifg=#e24240
 hi! ALEErrorSign ctermbg=235 ctermfg=196 guibg=#1e2132 guifg=#e24240
-hi! ALEWarningSign ctermbg=235 ctermfg=215 guibg=#1e2132 guifg=#f19a36
+hi! ALEVirtualTextError  ctermfg=196  guifg=#ff9796 cterm=italic gui=italic
+hi! ALEVirtualTextWarning ctermfg=215 guifg=#fccf7b cterm=italic gui=italic
 hi! CtrlPMode1 ctermbg=241 ctermfg=234 guibg=#5a5f72 guifg=#17171b
 hi! EasyMotionShade ctermfg=239 guifg=#3d425b
 hi! EasyMotionTarget ctermfg=180 guifg=#bca375
