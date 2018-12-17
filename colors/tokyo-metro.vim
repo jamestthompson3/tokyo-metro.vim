@@ -202,6 +202,8 @@ hi! link markdownCodeDelimiter String
 hi! link markdownHeadingDelimiter Comment
 hi! link markdownRule Comment
 hi! link ngxDirective Statement
+hi! link NERDTreeOpenable Special
+hi! link NERDTreeClosable Special
 hi! link plug1 Normal
 hi! link plug2 Identifier
 hi! link plugDash Comment
