@@ -92,7 +92,7 @@ hi! Type ctermfg=43 gui=NONE guifg=#4da79a
 hi! Underlined cterm=underline ctermfg=41 gui=underline guifg=#56b88a term=underline
 hi! VertSplit cterm=NONE ctermbg=233 ctermfg=233 gui=NONE guibg=#0f1117 guifg=#0f1117
 hi! Visual ctermbg=236 guibg=#373e5e
-hi! WildMenu ctermbg=255 ctermfg=234 guibg=#d4d5db guifg=#17171b
+hi! WildMenu guibg=#6788cc ctermbg=68
 hi! diffAdded ctermfg=180 guifg=#bca375
 hi! diffRemoved ctermfg=196 guifg=#e24240
 hi! ALEErrorSign ctermbg=235 ctermfg=196 guibg=#1e2132 guifg=#e24240
